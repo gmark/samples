@@ -30,9 +30,10 @@ public class Service {
 	@Path("/itemXML")
 	@Produces({MediaType.APPLICATION_XML})
 	public Item itemsXML() {
-		
+		/**
+		**/
 		return item;
 		
 	}
-	
+
 }
